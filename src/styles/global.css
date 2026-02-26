@@ -1,0 +1,138 @@
+:root {
+  /* Brand colors */
+  --color-primary: #ffa8e9;
+  --color-primary-dark: #ff75dd;
+  --color-primary-darker: #ff42d0;
+
+  /* Suport colors */
+  --color-cream: #F3E5D8;
+  --color-chocolate: #5C3A2E;
+
+  /* Texts */
+  --color-text-white: #FFF;
+  --color-text-light: #6E5A52;
+  --color-text-main: #3f3f3f;
+  --color-bg-main: #FFF6FB;
+  --color-bg-section: #F3E5D8;
+  --color-bg-card: #FFF;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-bg-main);
+}
+
+.hero-section {
+  display: flex;
+  background-color: blue;
+  width: 100vw;
+  height: 90vh;
+  background-image: url('../public/hero-section-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  filter: brightness(90%);
+}
+
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 200px;
+  justify-content: center;
+  width: 100%;
+  background-color: #5c3a2ea2;
+  height: fit-content;
+  padding-left: 80px;
+  padding-block: 20px;
+}
+
+.hero-section h1 {
+  color: var(--color-text-white);
+  font-size: 5rem;
+  font-weight: bold;
+  opacity: 100%;
+  width: 600px;
+}
+
+.hero-section button {
+  width: 300px;
+  padding-block: 16px;
+  font-size: 2rem;
+  border-radius: 16px;
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-white);
+  cursor: pointer;
+  transition: filter 300ms ease;
+}
+
+.hero-section button:hover {
+  filter: brightness(110%);
+}
+
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg-section);
+  width: 100vw;
+  height: 80vh;
+}
+
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgba(0, 128, 0, 0.397);
+  height: 600px;
+  width: 90%;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: filter 300ms ease;
+}
+
+.carousel__button:hover {
+  filter: brightness(110%);
+}
+
+.carousel_button, .right-button {
+  right: 16px;
+}
+
+.carousel_button, .left-button {
+  left: 16px;
+}
+
+
+.carousel___items_container {
+  display: flex;
+  gap: 24px;
+  height: 400px;
+  width: 84%;
+  background-color: red;
+  overflow: hidden;
+}
+
+.carousel__item {
+  flex: 0 0 auto;
+  height: 100%;
+  width: 450px;
+}
+
+.carousel__item img {
+  width: 100%;
+  height: 100%;
+}
