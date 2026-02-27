@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../styles/fonts.css">
   <link rel="stylesheet" href="../styles/sections.css">
   <link rel="stylesheet" href="../styles/carousel.css">
+  <link rel="stylesheet" href="../styles/slider.css">
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,24 +26,9 @@
     <div class="section">
       <div class="carousel">
         <div class="carousel___items-container">
-          <div class="carousel__items-list">
-            <div class="carousel__item">
-            <img src="../public/bolinhos.png" alt="">
-          </div>
-          <div class="carousel__item">
-            <img src="../public/bolo-de-chocolate.jpg" alt="">
-          </div>
-          <div class="carousel__item">
-            <img src="../public/bolo-de-castanhas.png" alt="">
-          </div>
-          <div class="carousel__item">
-            <img src="../public/bolo-fatias.jpg" alt="">
-          </div>
-          <div class="carousel__item">
-            <img src="../public/bolo-de-morango.jpg" alt="">
-          </div>
-          </div>
+          <div class="carousel__items-list"></div>
         </div>
+        
         <button class="carousel__left-button active-button">
           <svg xmlns="http://www.w3.org/2000/svg" height="72px" viewBox="0 -960 960 960" width="72px" fill="white"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
         </button>
@@ -50,8 +36,17 @@
           <svg xmlns="http://www.w3.org/2000/svg" height="72px" viewBox="0 -960 960 960" width="72px" fill="white"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
         </button>
       </div>
+
+       <div class="slider-container">
+        <div class="slider-wrapper">
+          <div class="slider"></div>
+          <div class="slider-nav"></div>
+        </div>
+    </div>
+
     </div>
     
-    <script src="../scripts/carousel.js" defer></script>
+    <script src="../scripts/carousel.js" defer type="module"></script>
+    <script src="../scripts/slider.js" defer type="module"></script>
 </body>
 </html>
