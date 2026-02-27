@@ -63,9 +63,16 @@
   flex: 0 0 auto;
   height: 100%;
   width: 450px;
+  overflow: hidden;
+  
 }
 
 .carousel__item img {
   width: 100%;
   height: 100%;
+  transition: 300ms ease-in-out;
+}
+
+.carousel__item img:hover {
+  scale: 110%;
 }
