@@ -1,3 +1,5 @@
+import {carouselImages} from './carouselImages.js'
+
 const carouselRightButton = document.querySelector('.carousel__right-button');
 const carouselLeftButton = document.querySelector('.carousel__left-button');
 const carouselItemsContainer = document.querySelector('.carousel__items-list');
@@ -51,6 +53,17 @@ function checkButtons() {
     carouselLeftButton.classList.remove('disabled-button');
   }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  carouselImages.map((image) => {
+    const carouselItem = `
+      <div class="carousel__item">
+        <img src="${image.path}" alt="">
+      </div>
+    `
+  carouselItemsContainer.innerHTML += carouselItem;
+  })
+})
 
 carouselRightButton.addEventListener('click', () => {
   moveNext()
