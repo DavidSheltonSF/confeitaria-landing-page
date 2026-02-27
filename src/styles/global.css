@@ -94,6 +94,7 @@ body {
 
 .carousel__left-button,
 .carousel__right-button {
+  background-color: var(--color-primary);
   position: absolute;
   top: 50%;
   width: 100px;
