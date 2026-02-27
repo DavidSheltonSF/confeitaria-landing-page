@@ -2,7 +2,7 @@
   display: flex;
   background-color: blue;
   width: 100vw;
-  height: 90vh;
+  height: 50vh;
   background-image: url('../public/hero-section-image.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,16 +19,15 @@
   width: 100%;
   background-color: #5c3a2ea2;
   height: fit-content;
-  padding-left: 80px;
   padding-block: 20px;
 }
 
 .hero-section h1 {
   color: var(--color-text-white);
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   opacity: 100%;
-  width: 600px;
+  width: 100%;
 }
 
 .hero-section button {
