@@ -3,14 +3,14 @@
   width: 100%;
   max-width: 432px;
   max-height: 500px;
-  margin-inline: auto;
 }
 
 @media (min-width: 700px) {
   .slider-container {
-    height: 592px;
-    width: 592px;
-    max-width: 592px;
+    height: 800px;
+    width: 800px;
+    max-width: 800px;
+    max-height: 800px;
   }
 }
 
