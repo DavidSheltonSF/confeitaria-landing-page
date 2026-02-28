@@ -50,9 +50,18 @@
 
 .section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--color-bg-section);
   width: 100vw;
   height: 80vh;
+}
+
+.slide-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 40px;
+  padding-block: 40px;
 }
