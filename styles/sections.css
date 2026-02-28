@@ -70,13 +70,13 @@
   background-color: var(--color-bg-section);
   width: 100%;
   min-height: 72vh;
-  padding-inline: 40px;
+  padding: 40px;
   border-bottom: 1px solid var(--color-chocolate);
 }
 
 .section-wrapper {
   display: flex;
-  height: 80%;
+  height: 100%;
   width: 100%;
   flex-direction: column;
   align-items: center;
@@ -97,5 +97,7 @@
 @media (min-width: 700px ){
   .section {
     height: 72vh;
+    padding-inline: 224px;
+    padding-block: 80px;
   }
 }
