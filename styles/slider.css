@@ -1,14 +1,16 @@
 .slider-container {
-  width: 90%;
-  max-width: 592px;
-  height: 592px;
+  height: 292px;
+  width: 100%;
+  max-width: 432px;
   max-height: 500px;
   margin-inline: auto;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
   .slider-container {
-    height: 292px
+    height: 592px;
+    width: 592px;
+    max-width: 592px;
   }
 }
 
