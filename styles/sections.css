@@ -47,6 +47,20 @@
   filter: brightness(110%);
 }
 
+@media (min-width: 700px) {
+  .hero-section {
+    height: 90vh;
+  }
+
+  .hero-section h1 {
+    font-size: 4rem;
+  }
+
+  .hero-section button {
+    width: 360px;
+    font-size: 2rem;
+  }
+}
 
 .section {
   display: flex;
