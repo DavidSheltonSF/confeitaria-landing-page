@@ -14,18 +14,9 @@
   background-color: var(--color-bg-card);
 }
 
-@media (min-width: 700px) {
-  .cards {
-    flex-direction: row;
-  }
-  .card {
-    width: 400px
-  }
-}
-
-
 .card main {
   height: 80%;
+  overflow: hidden; 
 }
 
 .card footer {
@@ -48,4 +39,15 @@
 
 .card img:hover {
   scale: 110%;
+}
+
+
+@media (min-width: 700px) {
+  .cards {
+    flex-direction: row;
+  }
+  .card {
+    height: 368px;
+    width: 400px
+  }
 }
