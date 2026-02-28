@@ -84,16 +84,6 @@
   gap: 40px;
 }
 
-
-.slide-section-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  width: 100%;
-  height: 100%;
-}
-
 @media (min-width: 700px ){
   .section {
     height: 72vh;
