@@ -20,8 +20,7 @@
   width: 100%;
   background-color: #5c3a2ea2;
   height: fit-content;
-  padding-block: 20px;
-  padding-inline: 40px;
+  padding: 20px;
   margin-block: auto;
 }
 
