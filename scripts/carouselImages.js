@@ -1,6 +1,6 @@
 export const carouselImages = [
   {
-    path: '../public/bolo-de-castanhas.png',
+    path: '../public/bolo-de-maracuja.png',
   },
    {
     path: '../public/bolo-de-chocolate.jpg',
