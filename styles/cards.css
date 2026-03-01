@@ -43,8 +43,6 @@
   margin-bottom: 24px;
 }
 
-
-
 .card img:hover {
   scale: 110%;
 }
@@ -55,7 +53,19 @@
     flex-direction: row;
   }
   .card {
-    height: 368px;
-    width: 400px
+    flex: 0 0 400px;
+    height: 468px;
+  }
+
+  .card button {
+    width: 200px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1757px ){
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
