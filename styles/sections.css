@@ -83,7 +83,7 @@
 
 @media (min-width: 700px ){
   .section {
-    height: 72vh;
+    min-height: 72vh;
     padding-inline: 224px;
     padding-block: 80px;
   }
