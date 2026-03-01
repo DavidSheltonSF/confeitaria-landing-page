@@ -85,4 +85,8 @@
     padding-inline: 224px;
     padding-block: 80px;
   }
+
+  .section-title {
+    font-size: 2rem;
+  }
 }
