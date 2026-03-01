@@ -29,6 +29,7 @@ body {
   color: white;
   background-color: var(--color-primary-dark);
   transition: background-color 300ms ease;
+  box-shadow: 1px 6px 14px 1px rgba(0, 0, 0, 0.404);
 }
 
 .button-primary:hover {
