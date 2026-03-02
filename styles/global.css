@@ -37,3 +37,20 @@ body {
 .button-primary:hover {
   background-color: var(--color-primary-darker);
 }
+
+
+.dark-filter {
+  position: relative;
+}
+
+.dark-filter::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.473);
+  z-index: 1;
+}
+
+.dark-filter > * {
+  z-index: 2;
+}
