@@ -1,9 +1,9 @@
-import { carouselImages } from "./carouselImages.js";
+import { slideImages } from "./slideImages.js";
 const slider = document.querySelector('.slider');
 const sliderNav = document.querySelector('.slider-nav')
 
 document.addEventListener('DOMContentLoaded', () => {
-  carouselImages.map((image, index) => {
+  slideImages.map((image, index) => {
     const sliderItem = `
       <img id="slide-${index}" src=${image.path}>
     `

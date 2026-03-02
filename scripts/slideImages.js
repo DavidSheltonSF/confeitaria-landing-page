@@ -1,4 +1,4 @@
-export const carouselImages = [
+export const slideImages = [
   {
     path: '../public/bolo-de-maracuja.png',
   },
