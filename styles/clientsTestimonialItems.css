@@ -18,10 +18,18 @@
   color: white;
 }
 
+.clients-testimonial-item h3 {
+  font-size: 1.8rem;
+}
+
+.clients-testimonial-item p {
+  font-size: 1.2rem;
+}
+
 .avatar {
   border-radius: 50%;
-  width: 140px;
-  height: 140px;
+  width: 152px;
+  height: 152px;
   overflow: hidden;
 }
 
