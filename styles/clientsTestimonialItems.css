@@ -1,4 +1,4 @@
-.client-testimonial-items {
+.clients-testimonial-items {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-.client-testimonial-item {
+.clients-testimonial-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +30,7 @@
 }
 
 @media (min-width: 1000px) {
-  .client-testimonial-items {
+  .clients-testimonial-items {
     flex-direction: row;    
     gap: 56px;
   }
