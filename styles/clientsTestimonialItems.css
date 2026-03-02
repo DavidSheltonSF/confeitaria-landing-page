@@ -1,0 +1,38 @@
+.client-testimonial-items {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.client-testimonial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.avatar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 1000px) {
+  .client-testimonial-items {
+    flex-direction: row;    
+    gap: 56px;
+  }
+}
+
