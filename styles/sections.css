@@ -79,9 +79,8 @@
   }
 
    .section {
-    min-height: 72vh;
-    padding-inline: 224px;
-    padding-block: 80px;
+    height: 72vh;
+    padding-inline: 224px;  
   }
 
   .section-title {
