@@ -46,7 +46,12 @@
   background-color: var(--color-bg-section);
   width: 100%;
   padding: 40px;
+  min-height: 72vh;
   border-bottom: 1px solid var(--color-chocolate);
+}
+
+.clients-testimonial-section {
+  height: 72vh;
 }
 
 .section-wrapper {
@@ -79,7 +84,6 @@
   }
 
    .section {
-    height: 72vh;
     padding-inline: 224px;  
   }
 
