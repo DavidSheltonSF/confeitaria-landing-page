@@ -1,5 +1,7 @@
 # Landing Page para Confeitaria
 
+Página responsiva para divulgar os produtos da confeitaria (fictícia) Coração de Mel. Pensada para transmitir suavidade e bem estar, conta com transiçoes suaves e cantos arredondados.
+
 
 ## Tecnologias
 
