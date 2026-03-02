@@ -5,7 +5,7 @@ const sliderNav = document.querySelector('.slider-nav')
 document.addEventListener('DOMContentLoaded', () => {
   slideImages.map((image, index) => {
     const sliderItem = `
-      <img id="slide-${index}" src=${image.path}>
+      <img id="slide-${index}" src=${image.path} alt=${image.alt}>
     `
     const navButton = `
       <a href="#slide-${index}"></a>
