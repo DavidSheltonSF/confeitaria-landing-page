@@ -446,7 +446,7 @@ body {
     font-size: 4rem;
   }
 
-  .hero-section button {
+  .hero-section__button {
     width: 360px;
     font-size: 2rem;
   }
@@ -482,7 +482,7 @@ body {
     height: 468px;
   }
 
-  .card button {
+  .card__button {
     width: 200px;
     font-size: 1.2rem;
   }
