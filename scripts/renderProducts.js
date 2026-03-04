@@ -21,7 +21,8 @@ function renderProducts(prod) {
         </div>
           <a class="button-primary" href="${generateProductWhatsAppUrl(
             product,
-          )}">
+          )}"
+          target="_blank">
             PEDIR AGORA
           </a>  
       </main>
