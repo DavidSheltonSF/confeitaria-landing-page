@@ -62,6 +62,18 @@ body {
   z-index: 1;
 }
 
+.dark-filter-soft {
+  position: relative;
+}
+
+.dark-filter-soft::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.171);
+  z-index: 1;
+}
+
 /* pacifico-regular - latin */
 @font-face {
   font-display: swap;
