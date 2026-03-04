@@ -7,7 +7,7 @@
 
 a {
   text-decoration: none;
-  color: inherit
+  color: inherit;
 }
 
 input:focus {
@@ -21,16 +21,16 @@ input:focus {
   --color-primary-darker: #ff42d0;
 
   /* Support colors */
-  --color-cream: #F3E5D8;
-  --color-chocolate: #5C3A2E;
+  --color-cream: #f3e5d8;
+  --color-chocolate: #5c3a2e;
 
   /* Texts */
-  --color-text-white: #FFF;
-  --color-text-light: #6E5A52;
+  --color-text-white: #fff;
+  --color-text-light: #6e5a52;
   --color-text-main: #3f3f3f;
-  --color-bg-main: #FFF6FB;
-  --color-bg-section: #F3E5D8;
-  --color-bg-card: #FFF;
+  --color-bg-main: #fff6fb;
+  --color-bg-section: #f3e5d8;
+  --color-bg-card: #fff;
 }
 
 /* Animations */
@@ -41,7 +41,7 @@ input:focus {
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -76,8 +76,8 @@ body {
   position: relative;
 }
 
-.dark-filter::before{
-  content: "";
+.dark-filter::before {
+  content: '';
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.473);
@@ -88,8 +88,8 @@ body {
   position: relative;
 }
 
-.dark-filter-soft::before{
-  content: "";
+.dark-filter-soft::before {
+  content: '';
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.171);
@@ -102,7 +102,7 @@ body {
   font-family: 'Pacifico';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/pacifico-v23-latin-regular.woff2') format('woff2'); 
+  src: url('../fonts/pacifico-v23-latin-regular.woff2') format('woff2');
 }
 
 /* poppins-regular - latin */
@@ -115,7 +115,7 @@ body {
 }
 
 .pacifico-regular {
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -345,7 +345,6 @@ body {
   width: 100%;
   flex: 1;
   padding: 16px;
-
 }
 
 .product__information {
@@ -463,9 +462,14 @@ body {
   .products {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .search-bar__container {
+    width: 480px;
+    margin-right: auto;
+  }
 }
 
-@media (min-width: 1200px ){
+@media (min-width: 1200px) {
   .hero-section {
     height: 90vh;
   }
@@ -479,8 +483,8 @@ body {
     font-size: 2rem;
   }
 
-   .section {
-    padding-inline: 224px;  
+  .section {
+    padding-inline: 224px;
   }
 
   .clients-testimonial-section {
@@ -505,7 +509,7 @@ body {
   }
 }
 
-@media (max-width: 1757px ){
+@media (max-width: 1757px) {
   .cards {
     flex-wrap: wrap;
     justify-content: center;
