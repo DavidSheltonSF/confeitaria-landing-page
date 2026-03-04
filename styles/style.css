@@ -144,6 +144,10 @@ body {
 }
 .clients-testimonial-section {
   position: relative;
+}
+
+.clients-testimonial-section > * {
+  position: relative;
   z-index: 2;
 }
 
