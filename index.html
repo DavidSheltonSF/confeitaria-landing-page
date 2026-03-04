@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Confeitaria Coração de Mel</title>
   <link rel="icon" type="image/x-icon" href="./public/logo.png">
-  <link rel="stylesheet" href="./styles/styles.min.css">
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <div class="hero-section dark-filter-soft">
@@ -95,6 +95,15 @@
         </div>
       </div>
     </div>
+    <div class="section products-section">
+      <div class="section-wrapper">
+        <h2 class="section-title">Produtos</h2>
+        <div class="search-bar__container">
+          <input class="search-bar__input" type="text">
+        </div>
+        <div class="products"></div>
+      </div>
+    </div>
     <div class="section slides-section">
       <div class="section-wrapper">
        <div class="slider-container">
@@ -108,5 +117,6 @@
     </div>
     
     <script src="./scripts/slider.js" defer type="module"></script>
+    <script src="./scripts/renderProducts.js" defer type="module"></script>
 </body>
 </html>
