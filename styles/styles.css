@@ -238,6 +238,10 @@ body {
   transition: scale 300ms ease-in;
 }
 
+.card img:hover {
+  scale: 110%;
+}
+
 .card div {
   display: flex;
   flex-direction: column;
@@ -254,10 +258,6 @@ body {
   font-size: 1.4rem;
   border-radius: 8px;
   margin-bottom: 24px;
-}
-
-.card img:hover {
-  scale: 110%;
 }
 
 .clients-testimonial-items {
