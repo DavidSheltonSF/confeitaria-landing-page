@@ -13,7 +13,7 @@ function renderProducts(prod) {
   prod.map((product) => {
     const productCard = `
     <article class="product fade-in-animation">
-      <img class="product__image" src="${product.imageUrl}" alt="">
+      <img class="product__image" src="${product.imageUrl}" alt="" loading="lazy">
       <main>
         <div class="product__information">
         <h3 class="product__name">${product.name}</h3>
