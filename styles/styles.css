@@ -33,6 +33,24 @@ input:focus {
   --color-bg-card: #FFF;
 }
 
+/* Animations */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.fade-in-animation {
+  animation: fade-in 300ms ease forwards;
+}
+
+/* ----------------------------- */
+
 body {
   font-family: 'Poppins', sans-serif;
   display: flex;
