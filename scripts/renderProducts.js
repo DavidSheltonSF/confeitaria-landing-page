@@ -19,7 +19,7 @@ function renderProducts(prod) {
         <h3 class="product__name">${product.name}</h3>
         <p class="product__price">R$${product.price}</p>
         </div>
-          <a class="button-primary" href="${generateProductWhatsAppUrl(
+          <a class="button-primary product__button" href="${generateProductWhatsAppUrl(
             product,
           )}"
           target="_blank">
