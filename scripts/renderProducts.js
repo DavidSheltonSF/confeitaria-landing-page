@@ -1,4 +1,5 @@
 import { products } from './products.js';
+import { generateProductWhatsAppUrl } from './generateProductWhatsAppUrl.js';
 
 const productsList = document.querySelector('.products');
 const searchBarInput = document.querySelector('.search-bar__input');
@@ -19,10 +20,7 @@ function renderProducts(prod) {
         <p class="product__price">R$${product.price}</p>
         </div>
         <button class="product__button button-primary">
-          <a href="https://wa.me/5521969470527?text=${product.whatsAppText.replace(
-            ' ',
-            '%20',
-          )}">
+          <a href="${generateProductWhatsAppUrl(product)}">
             PEDIR AGORA
           </a>  
         </button>
