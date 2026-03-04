@@ -11,7 +11,7 @@ function renderProducts(prod) {
   clearProducts()
   prod.map((product) => {
     const productCard = `
-    <article class="product">
+    <article class="product fade-in-animation">
       <img class="product__image" src="${product.imageUrl}" alt="">
       <main>
         <div class="product__information">
