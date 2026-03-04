@@ -158,7 +158,7 @@ body {
   width: 100%;
 }
 
-.hero-section button {
+.hero-section__button {
   width: 200px;
   padding-block: 16px;
   font-size: 1.5rem;
@@ -248,7 +248,7 @@ body {
   flex: 1;
 }
 
-.card button {
+.card__button {
   padding-block: 16px;
   width: 90%;
   font-size: 1.4rem;
