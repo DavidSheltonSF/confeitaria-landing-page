@@ -12,23 +12,25 @@ function renderProducts(prod) {
   clearProducts();
   prod.map((product) => {
     const productCard = `
-    <article class="product fade-in-animation">
-      <img class="product__image" src="${
-        product.imageUrl
-      }" alt="" loading="lazy">
-      <main>
-        <div class="product__information">
-        <h3 class="product__name">${product.name}</h3>
-        <p class="product__price">R$${product.price}</p>
-        </div>
-          <a class="button-primary product__button" href="${generateProductWhatsAppUrl(
-            product,
-          )}"
+      <article class="product fade-in-animation">
+        <img class="product__image" src="${product.imageUrl}" alt="${
+      product.name
+    }" loading="lazy">
+        <div class="product__content">
+          <div class="product__information">
+            <h3 class="product__name">${product.name}</h3>
+            <p class="product__price">R$${product.price}</p>
+          </div>
+          <a 
+          class="button-primary 
+          product__button" 
+          href="${generateProductWhatsAppUrl(product)}"
           target="_blank">
-            PEDIR AGORA
-          </a>  
-      </main>
-    </article>
+          rel="noopener"
+          PEDIR AGORA
+          </a> 
+        </div>
+      </article>
     `;
 
     productsList.innerHTML += productCard;
