@@ -13,7 +13,9 @@ function renderProducts(prod) {
   prod.map((product) => {
     const productCard = `
     <article class="product fade-in-animation">
-      <img class="product__image" src="${product.imageUrl}" alt="" loading="lazy">
+      <img class="product__image" src="${
+        product.imageUrl
+      }" alt="" loading="lazy">
       <main>
         <div class="product__information">
         <h3 class="product__name">${product.name}</h3>
@@ -37,10 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
   renderProducts(products);
 });
 
-searchBarInput.addEventListener('input', (e) => {
-  const filteredProducts = products.filter((product) =>
-    product.name.startsWith(e.target.value),
-  );
+function filterProducts(products, searchText) {
+  const normalizedText = searchText.toLowerCase();
+  return products.filter((product) => {
+    return product.name.toLowerCase().startsWith(normalizedText);
+  });
+}
 
+searchBarInput.addEventListener('input', (e) => {
+  const filteredProducts = filterProducts(products, e.target.value);
   renderProducts(filteredProducts);
 });
