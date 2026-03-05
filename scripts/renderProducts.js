@@ -19,6 +19,7 @@ function renderProducts(prod) {
         href="${generateProductWhatsAppUrl(product)}"
         target="_blank"
         rel="noopener"
+        aria-label="Fazer pedido pelo WhatsApp (Abre em nova aba)"
         >
         <div class="product__image-container">
           <img class="product__image" src="${product.imageUrl}" alt="${

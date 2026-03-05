@@ -42,6 +42,7 @@
             href="https://wa.me/5521969470527?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido."
             target="_blank"
             rel="noopener"
+            aria-label="Fazer pedido pelo WhatsApp (Abre em nova aba)"
           >
             Fazer pedido
           </a>
@@ -71,7 +72,7 @@
                 href="https://wa.me/5521969470527?text=Olá!%20Gotaria%20de%20pedir%20um%20bolo%20de%20aniversário."
                 target="_blank"
                 rel="noopener"
-                decoding="async"
+                aria-label="Fazer pedido pelo WhatsApp (Abre em nova aba)"
               >
                 PEÇA AGORA
               </a>
@@ -94,6 +95,7 @@
                 href="https://wa.me/5521969470527?text=Olá!%20Gotaria%20de%20pedir%20alguns%20docinhos."
                 target="_blank"
                 rel="noopener"
+                aria-label="Fazer pedido pelo WhatsApp (Abre em nova aba)"
               >
                 PEÇA AGORA
               </a>
@@ -117,6 +119,7 @@
                 href="https://wa.me/5521969470527?text=Olá!%20Gotaria%20de%20pedir%20uma%20sobremesa."
                 target="_blank"
                 rel="noopener"
+                aria-label="Fazer pedido pelo WhatsApp (Abre em nova aba)"
               >
                 PEÇA AGORA
               </a>
@@ -202,6 +205,7 @@
           <h2 class="section-title">Escolha sua Doçura</h2>
           <div class="search-bar__container">
             <svg
+              aria-label="true"
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
               viewBox="0 -960 960 960"
@@ -213,7 +217,12 @@
               />
             </svg>
             <label class="hidden" for="searchbar">Buscar Doce</label>
-            <input id="searchbar" class="search-bar__input" type="text" placeholder="Buscar Doce"/>
+            <input
+              id="searchbar"
+              class="search-bar__input"
+              type="text"
+              placeholder="Buscar Doce"
+            />
           </div>
           <div class="products"></div>
         </div>
