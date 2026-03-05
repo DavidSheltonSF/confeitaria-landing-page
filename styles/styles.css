@@ -59,6 +59,10 @@ input:focus {
   font-style: normal;
 }
 
+.hidden {
+  display: none;
+}
+
 /* ----------------------------- */
 
 body {
