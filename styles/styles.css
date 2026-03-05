@@ -350,7 +350,7 @@ body {
   scale: 110%;
 }
 
-.product main {
+.product__content {
   display: flex;
   flex-direction: column;
   gap: 16px;
