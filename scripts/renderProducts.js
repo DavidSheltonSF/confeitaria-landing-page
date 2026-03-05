@@ -1,6 +1,6 @@
 import { products } from './products.js';
 import { generateProductWhatsAppUrl } from './generateProductWhatsAppUrl.js';
-import { priceToCurrencyString } from './helpers/formatPrice.js';
+import { formatPrice } from './helpers/formatPrice.js';
 
 const productsList = document.querySelector('.products');
 const searchBarInput = document.querySelector('.search-bar__input');
@@ -28,7 +28,7 @@ function renderProducts(prod) {
         <div class="product__content">
           <div class="product__information">
             <h3 class="product__name">${product.name}</h3>
-            <p class="product__price">${priceToCurrencyString(
+            <p class="product__price">${formatPrice(
               product.price,
             )}</p>
           </div>
