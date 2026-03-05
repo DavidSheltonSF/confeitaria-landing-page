@@ -23,14 +23,12 @@ function renderProducts(prod) {
         <div class="product__image-container">
           <img class="product__image" src="${product.imageUrl}" alt="${
       product.name
-    }" loading="lazy">
+    }" loading="lazy" decoding="async">
         </div>
         <div class="product__content">
           <div class="product__information">
             <h3 class="product__name">${product.name}</h3>
-            <p class="product__price">${formatPrice(
-              product.price,
-            )}</p>
+            <p class="product__price">${formatPrice(product.price)}</p>
           </div>
           <span 
           class="button-primary 
